@@ -1,0 +1,261 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #6C6F73;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #333;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.blockquote {
+	font-size: 1.6rem;
+	color: #333;
+	border: none;
+	padding: 0;
+}
+
+.blockquote-footer {
+	margin: 1rem 0 0;
+}
+
+/* navbar */
+.navbar-brand {
+	padding-top: 0.5rem;
+}
+
+.navbar .navbar-inverse .navbar-fixed-top {
+	background-color: #1ab394;
+}
+
+.navbar-nav li a {
+}
+
+/* header */
+.inner {
+  padding: 2rem;
+}
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: bold;
+}
+
+/* content  */
+.content {
+	height: 100%;
+	margin-top: 7rem;
+	clear: both;
+}
+
+/* stage */
+#stage {
+	background: url('../img/hospital.jpg') center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 85%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#stage-caption {
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 100rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#stage-caption h1 {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-shadow: 2px 4px 4px #000000;
+}
+
+
+#stage-caption h2 {
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 0 5px #000000;
+}
+
+/* about-site */
+
+#about-site {
+	margin-top: 5rem;
+	height: 100%;
+	clear: both;
+	overflow: hidden;
+}
+
+#feature {
+	background-color: #2f4050;
+	color: white;
+	height: 100%;
+	padding: 5rem;
+}
+
+#feature h2 {
+	color: #fff;
+}
+
+#feature h3 {
+	color: #1ab394;
+}
+
+.footer p {
+	padding-top: 5rem;
+	padding-bottom: 0;
+	bottom: 0;
+}
+
+/* the hospital */
+#the-hospital {
+	padding: 5rem;
+	height: 100%;
+	clear: both;
+}
+
+#the-hospital .row {
+	height: 100%;
+}
+
+#the-hospital .caption .btn{
+	width: 100%;
+}
+
+#the-hospital .title-bar {
+	height: 9em;
+}
+
+#the-hospital .row {
+	clear: both;
+}  
+
+#the-hospital .input-group-btn button{
+	outline: none;
+	border: none;
+	vertical-align: center;
+}
+
+#the-hospital .glyphicon-search {
+	outline: none;
+	border: none;
+	vertical-align: center;
+}
+
+#the-hospital #search-field {
+	outline: none;
+	border: none;
+	vertical-align: center;
+	width: 30em;
+}
+
+/* pendaftaran */
+
+.form-group {
+	padding-top: 1rem;
+}
+
+.form-pasien {
+	padding-top: 5rem;
+}
+
+.modal-body {
+	padding: 3rem 10rem;
+	clear: both;
+}
+
+.modal-body .form-group {
+	clear: both;
+}
+
+.modal-body .form-group .col-md-2 input[type=radio] {
+	color: black;
+}
+
+.modal-body .form-group .col-sm-offset-3 input[type=button] {
+	color: #fff;
+	width: 100%;
+}
+
+.modal-body .form-group .col-sm-4 input[type=submit] {
+	color: #fff;
+	width: 100%;
+}
+
+.modal-body .form-group .control-label {
+	color: #000;
+	font-size: 1.3em;
+}
+
+.modal-body .form-control-static {
+	background-color: #1ab394;
+	font-size: 2em;
+}
+
+.modal-body .list-group-item {
+	background-color: #1ab394;
+}
+
+.modal-body .badge {
+	background-color: #fff;
+	color: #000;
+}
+
+.modal-body .form-group .btn-group {
+	width: 100%;
+}
+
+.modal-header {
+	background-color: #1ab394;
+	color: #fff;
+}
+.modal-header .modal-title {
+	color: #fff;
+	font-size: 2em;
+}
+
+.modal-header .close {
+	font-size: 3em;
+	color: red;
+}
+
+.modal-footer {
+	background-color: #1ab394;
+}
+
+/* about-site */
+
+#about-site #feature .navbar {
+	bottom: 0;
+	top: 0;
+	padding-top: -10rem;
+	padding-bottom: 0;
+}
+
+#about-site .list-group-items {
+	font-size: 1.4em;
+	font-weight: 0;
+}

@@ -1,0 +1,78 @@
+.garis {
+	border-bottom: 5px double white;
+}
+
+.table {
+	border-style: 0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* content  */
+.content {
+	height: 900px;
+	min-height: auto;
+	overflow: hidden;
+}
+
+.content1 {
+	background-color: rgba(217, 222, 235, 0.7);
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+/* form-side */
+.content1 .form_side {
+	height: 100%;
+	padding: 2%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content1 .form_side form .form_signup1, .form_signup {
+	border-radius: 7px;
+	height: 40px;
+	border-color: rgba(217, 222, 235, 0.5);
+	font-size: 1.2em;
+	width: 100%;
+}
+
+.content1 .form_side form .bt_daftar {
+	width: 100%;
+	height: 40px;
+	background-color: #609F4E;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.content1 .form_side #form2 {
+	width: 80%;
+}
+
+.content1 .form_side form .font_label {
+	font-size: 1em;
+	text-align: right;
+}
+
+.content1 .form_side form .font_input {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.content1 .form_side form input[type=text] {
+	padding-left: 10px;
+}
+
+.content1 .form_side form input[type=email] {
+	padding-left: 10px;
+}
+
+.content1 .form_side form input[type=radio] {
+	padding-left: 10px;
+	font-size: 12px;
+}
