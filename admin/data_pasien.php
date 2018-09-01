@@ -51,8 +51,8 @@
                       <td>'.$data['Diagnosa_Penyakit'].'</td>
                       <td>'.$data['Tipe_Kamar'].'</td>
                       <td>
-                        <a class="btn btn-warning" href="index.php?menu=detail_pasien&detail_pasien.php&No='.$data['No_Antrian'].'"> Detail </a><br>
-                        <a class="btn btn-danger" href="index.php?menu=data_pasien&delete_pasien.php&No='.$data['No_Antrian'].' "> Selesai </a>
+                        <a class="btn btn-warning" href="detail_pasien.php?menu=detail_pasien&No='.$data['No_Antrian'].'"> Detail </a><br>
+                        <a class="btn btn-danger" href="dashboard.php?menu=data-pasien&No='.$data['No_Antrian'].' "> Selesai </a>
                       </td>
                     </tr>
                   ';
